@@ -11,7 +11,7 @@ import { Select } from "./Select"
   ]
 export const App=()=>{
 
-  const[value,setValue]=useState<typeof options[0] | undefined>(options[0])
+  const[value,setValue]= useState<typeof options[0] | undefined>(options[0])
  
 return(
 
